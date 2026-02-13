@@ -14,7 +14,7 @@ class CodexUsage < Formula
   end
 
   def install
-    bin.install "codex-usage"
+    bin.install "codex-usage-aarch64-apple-darwin" => "codex-usage"
   end
 
   test do
